@@ -64,6 +64,10 @@ body {
     margin-top: 0;
 }
 
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
 /* Block divider*/
 
 .block-divider {
@@ -75,6 +79,10 @@ body {
 
 .block-divider--orange {
     background-color: #f04f40;
+}
+
+.block-divider--white {
+    background-color: white;
 }
 
 .block-divider--short {
@@ -118,8 +126,6 @@ body {
     font-weight: bold;
 }
 
-
-
 /*Jumbotron*/
 
 .jumbotron {
@@ -140,7 +146,7 @@ body {
 .jumbotron small {
     font-size: 60%;
     font-style: italic;
-    color: #f05f4;
+    color: #f05f40;
 }
 
 /* Buttons*/
@@ -163,4 +169,25 @@ body {
 .btn--red:active:focus {
     background-color: #df4949;
     border-color: #df4949;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.features .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
 }
